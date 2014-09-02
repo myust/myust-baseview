@@ -4,6 +4,7 @@
     "authors": [
         "Mau Ka Ming <ahmautom@gmail.com>"
     ],
+    "main": "myust-baseview.html",
     "license": "MIT",
     "private": true,
     "ignore": [
@@ -12,5 +13,10 @@
         "bower_components",
         "test",
         "tests"
-    ]
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#~0.4.0",
+        "underscore": "~1.7.0",
+        "jquery": "~2.1.1"
+    }
 }
